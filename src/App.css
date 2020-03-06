@@ -43,4 +43,6 @@ img {
   padding-bottom: 10px;
 }
 
-
+@media (min-widht: 900px) {
+  
+}
