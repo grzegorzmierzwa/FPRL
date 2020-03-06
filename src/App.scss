@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+
+  img {
+    height: 40vmin;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /* pointer-events: none; */
+  }
+
+  .future {
+    margin: 0px 0px 100px;
+    font-size: 20px;
+    color:#343c5cce;}
+
+  .title {
+    font-size: 30px;
+    color:#343c5c;
+    margin: 3px;
+  }
+
+  .panelBar {
+    margin: 0 20%;
+    border-bottom: 4px solid #e2e2e2;
+  }
+
+  .content {
+    margin: 20px 30%;
+    text-align: left;
+  }
+
+  .offer {
+    margin-top: 100px;
+  }
+
+  .contact {
+    width: 100%;
+    margin-top: 100px;
+    background-color: #343c5c;
+    color: #e2e2e2;
+    padding: 10px 20px 30px 20px;
+
+    .title-contact {
+      font-size: 20px;
+      color:#e2e2e2;
+      margin: 3px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .reference {
+    background-color: rgb(245, 245, 245);
+    margin: 100px 0px;
+    padding: 20px 0px;
+    .img-container {
+      display: flex;
+      align-items: initial;
+      justify-content: center;
+      .client-img {
+        object-fit: cover;
+        margin: 10px;     
+      }
+      .img-1 {
+        width: 150px;
+        height: 35px;
+      }
+      .img-2 {
+        width: 180px;
+        height: 23px;
+      }
+      .img-3 {
+        width: 150px;
+        height: 23px;
+      }
+      .img-4 {
+        width: 200px;
+        height: 23px;
+      }
+      .img-5 {
+        width: 150px;
+        height: 23px;
+      }
+      .img-6 {
+        width: 150px;
+        height: 28px;
+      }
+      .img-7 {
+        width: 100px;
+        height: 35px;
+      }
+      .img-8 {
+        width: 150px;
+        height: 35px;
+      }
+      .img-9 {
+        width: 150px;
+        height: 45px;
+      }
+      .img-10 {
+        width: 120px;
+        height: 40px;
+      }
+    }
+  }
+
+  .realizations {
+    margin-top: 50px;
+    .img-container {
+      display: flex;
+      align-items: initial;
+      justify-content: center;
+      .portfolio-img {
+        padding: 3px;
+        object-fit: cover;
+      }
+    }
+  }
+}
