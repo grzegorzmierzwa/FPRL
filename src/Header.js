@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 import './App.scss';
 
@@ -6,17 +7,11 @@ function Header() {
   return (
     <div className='App'>
       <nav>
-
-        {/* <a href='http://localhost:3000/' className='link-pl'>PL</a> */}
-        {/* <a href='http://localhost:3000/en'>EN</a>  */}
-
-        <a href='http://fprl.eu' className='link-pl'>PL</a>
-        <a href='http://fprl.eu'>EN</a>
-
+        <Link to='/' className='link-pl'>PL</Link>
+        <Link to='/en'>EN</Link>
       </nav>
       <header >
-        
-        <img src='./images/logo.jpg' alt='logo' className='logo'/>
+        <img src='./images/logo.jpg' alt='logo' className='logo' />
         <h4 className='future'>Future is now...</h4>
         <div className='hastag'>
           <p>#Maintenance Management Systems</p>
@@ -34,7 +29,7 @@ function Header() {
           <p>#CMS</p>
         </div>
       </header>
-    </div>  
+    </div>
   );
 }
 
