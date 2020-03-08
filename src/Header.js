@@ -7,16 +7,16 @@ function Header() {
     <div className='App'>
       <nav>
 
-        {/* <a href='http://localhost:3000/' className='link-pl'>PL</a>
-        <a href='http://localhost:3000/en'>EN</a> */}
+        {/* <a href='http://localhost:3000/' className='link-pl'>PL</a> */}
+        {/* <a href='http://localhost:3000/en'>EN</a>  */}
 
         <a href='http://fprl.eu' className='link-pl'>PL</a>
-        <a href='http://fprl.eu/en'>EN</a>
-        
+        <a href='http://fprl.eu'>EN</a>
+
       </nav>
       <header >
         
-        <img src='./images/logo.png' alt='logo' className='logo'/>
+        <img src='./images/logo.jpg' alt='logo' className='logo'/>
         <h4 className='future'>Future is now...</h4>
         <div className='hastag'>
           <p>#Maintenance Management Systems</p>

@@ -6,6 +6,13 @@ function Home() {
   return (
     <div className='App'>
       <div className='about'>
+          <div className='info'>
+            <p>
+              <strong>
+                Zmieniamy się dla Was. Ze względu na ekspansję firmy na polski rynek, nasza strona jest tymczasowo przebudowywana. Zapraszamy 1 kwietnia 2020 r.
+              </strong>
+            </p>
+          </div>
         <div className='panelBar'>
           <h3 className='title'>O NAS</h3>
         </div>

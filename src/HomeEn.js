@@ -6,6 +6,13 @@ function HomeEn() {
   return (
     <div className='App'>
       <div className='about'>
+        <div className='info'>
+          <p>
+            <strong>
+              We are changing for You. Due to the company's expansion into the Polish market, our website is temporarily under reconstruction. See you 1st of April 2020.
+            </strong>
+          </p>
+        </div>
         <div className='panelBar'>
           <h3 className='title'>ABOUT US</h3>
         </div>
