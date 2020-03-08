@@ -8,6 +8,21 @@ function App() {
       <header >
         <img src='./images/logo.png' alt='logo' />
         <h4 className='future'>Future is now...</h4>
+        <div className='hastag'>
+          <p>#Maintenance Management Systems</p>
+          <p>#Lean Manufacturing</p>
+          <p>#Total Productive Maintenance</p>
+          <p>#KAIZEN</p>
+          <p>#5 Why</p>
+          <p>#SMED</p>
+          <p>#GMP</p>
+          <p>#ATS</p>
+          <p>#CIL</p>
+          <p>#VC</p>
+          <p>#5S</p>
+          <p>#OEE</p>
+          <p>#CMS</p>
+        </div>
       </header>
       <div className='about'>
         <div className='panelBar'>
@@ -15,8 +30,7 @@ function App() {
         </div>
         <div className='content'>
           <p>
-          FPRL jest firmą stworzona przez profesjonalistów, którzy wykorzystując przez lata gromadzone doświadczenie proponują swojemu klientowi najbardziej innowacyjne,
-          często nieszablonowe rozwiązania, zawsze dopasowane do indywidualnych potrzeb klienta.
+            FUTURE WAY PRL LTD jest firmą stworzoną przez profesjonalistów, którzy wykorzystując przez lata gromadzone doświadczenie proponują najbardziej innowacyjne rozwiązania, zawsze dopasowane do indywidualnych potrzeb naszego Klienta.
           </p>
         </div>
       </div>
@@ -54,22 +68,22 @@ function App() {
         </div>
         <div className='content'>
           <p>
-            Nasza firma oferuje pełny zakres skutecznych i sprawdzonych rozwiązań serwisowych głównie dla firm z branży przemysłowej, 
-            które gwarantują wzrost konkurencyjności i maksymalną produktywność Twojego przedsiębiorstwa. 
-            Naszym głównym obszarem działań jest obsługa infrastruktury, utrzymanie ruchu, inżyniering i outsourcing.
+            Nasza firma oferuje pełny zakres skutecznych i sprawdzonych rozwiązań serwisowych 
+            które gwarantują wzrost konkurencyjności 
+            i maksymalną produktywność Twojego przedsiębiorstwa. Naszym głównym obszarem działań jest, utrzymanie ruchu, 
+            diagnostyka, wsparcie konstruktorskie, 
+            zarządzanie infrastrukturą budynkową oraz specjalistyczne szkolenia.
           </p>
           <p>
-            Nasza firma jest prężnie rozwijającą się organizacją z sektora logistycznego. 
-            Ciągłe wyzwania, które rodzą duże możliwości, dają nam ciągłą, nieustaną motywacje, 
-            dzięki której bezustannie poszerzamy nasze horyzonty. 
-            Jeżeli uważasz ze czegoś się nie da zrobić, proszę daj nam przeanalizować temat.
+            Jesteśmy prężnie rozwijającą się organizacją z sektora przemysłowego. 
+            Ciągłe wyzwania rodzące duże możliwości, dają nam nieustaną motywacje, 
+            dzięki której każdego dnia poszerzamy nasze horyzonty. Nowoczesne 
+            i nieszablonowe podejście czyni nas specjalistami od zadań niewykonalnych. 
           </p>
           <p>
-            Nasze usługi dedykowane są pod naszego klienta. 
-            Staramy się sprostać każdemu zadaniu, ale mamy też standardowe usługi. 
-            Pakowanie asortymentu jak również, naprawa, malowanie, 
-            pranie przekładek czy też pojemników oraz ich magazynowanie to nasza codzienność. 
-            Posiadamy własne centrum logistyczne.
+            Posiadamy wysoko wykwalifikowaną kadrę pracowników 
+            oraz własne centrum logistyczne 
+            aby do minimum ograniczyć czas reakcji na zapytania naszych partnerów.
           </p>
         </div>
       </div>

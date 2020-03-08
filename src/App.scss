@@ -10,7 +10,7 @@
   }
 
   .future {
-    margin: 0px 0px 100px;
+    margin: 20px 0px 20px;
     font-size: 20px;
     color:#343c5cce;}
 
@@ -26,12 +26,35 @@
   }
 
   .content {
-    margin: 20px 30%;
+    margin: 20px 20%;
     text-align: left;
   }
 
   .offer {
     margin-top: 100px;
+  }
+
+  .about {
+    margin-top: 100px;
+  }
+
+  .hastag {
+
+    margin: 20px 20%;
+    // display: flex;
+    justify-content: center;
+    // align-items: stretch;
+    
+    p {
+      color: #343c5c;
+      font-size: 16px;
+      margin: 10px 10px;
+      display: inline-flex;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: rgb(221, 221, 221);
+      font-weight: 500;
+    }
   }
 
   .contact {
