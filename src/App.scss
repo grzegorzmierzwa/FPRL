@@ -2,11 +2,29 @@
   text-align: center;
   overflow: hidden;
 
-  img {
+  nav {
+    display: flex;
+    margin-left: 3%;
+    a {
+      text-decoration: none;
+      padding: 0px 5px;
+      color: 343c5cce;
+      &:hover {
+        color: orange;
+      }
+    }
+    .link-pl {
+      border-right: 1px solid #343c5cce;
+    }
+
+
+  }
+
+  .logo {
     height: 40vmin;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    /* pointer-events: none; */
+    border-radius: 20px;
   }
 
   .future {
@@ -26,7 +44,7 @@
   }
 
   .content {
-    margin: 20px 20%;
+    margin: 20px 25%;
     text-align: left;
   }
 
@@ -39,12 +57,8 @@
   }
 
   .hastag {
-
     margin: 20px 20%;
-    // display: flex;
     justify-content: center;
-    // align-items: stretch;
-    
     p {
       color: #343c5c;
       font-size: 16px;
@@ -52,8 +66,11 @@
       display: inline-flex;
       padding: 5px;
       border-radius: 5px;
-      background-color: rgb(221, 221, 221);
+      background-color: rgb(245, 245, 245);
       font-weight: 500;
+      &:hover {
+        background-color: rgb(226, 226, 226);
+      }
     }
   }
 
@@ -133,6 +150,11 @@
       display: flex;
       align-items: initial;
       justify-content: center;
+      img {
+        height: 30vmin;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+      }
       .portfolio-img {
         padding: 3px;
         object-fit: cover;
