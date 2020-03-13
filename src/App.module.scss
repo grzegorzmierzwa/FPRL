@@ -13,7 +13,7 @@
         color: orange;
       }
     }
-    .link-pl {
+    .linkPl {
       border-right: 1px solid #343c5cce;
     }
   }
@@ -37,7 +37,8 @@
   .future {
     margin: 20px 0px 20px;
     font-size: 20px;
-    color:#343c5cce;}
+    color: #343c5c;
+  }
 
   .title {
     font-size: 30px;
@@ -88,7 +89,7 @@
     color: #e2e2e2;
     padding: 10px 20px 30px 20px;
 
-    .title-contact {
+    .titleContact {
       font-size: 20px;
       color:#e2e2e2;
       margin: 3px;
@@ -100,72 +101,175 @@
     background-color: rgb(245, 245, 245);
     margin: 100px 0px;
     padding: 20px 0px;
-    .img-container {
+    .imgContainer {
       display: flex;
       align-items: initial;
       justify-content: center;
-      .client-img {
-        object-fit: cover;
+      .clientImg {
         margin: 10px;     
       }
-      .img-1 {
+      .img1 {
         width: 150px;
         height: 35px;
+        object-fit: cover;
       }
-      .img-2 {
+      .img2 {
         width: 180px;
         height: 23px;
+        object-fit: cover;
       }
-      .img-3 {
+      .img3 {
         width: 150px;
         height: 23px;
+        object-fit: cover;
       }
-      .img-4 {
+      .img4 {
         width: 200px;
         height: 23px;
+        object-fit: cover;
       }
-      .img-5 {
+      .img5 {
         width: 150px;
         height: 23px;
+        object-fit: cover;
       }
-      .img-6 {
+      .img6 {
         width: 150px;
         height: 28px;
+        object-fit: cover;
       }
-      .img-7 {
+      .img7 {
         width: 100px;
         height: 35px;
+        object-fit: cover;
       }
-      .img-8 {
+      .img8 {
         width: 150px;
         height: 35px;
+        object-fit: cover;
       }
-      .img-9 {
+      .img9 {
         width: 150px;
         height: 45px;
+        object-fit: cover;
       }
-      .img-10 {
+      .img10 {
         width: 120px;
         height: 40px;
+        object-fit: cover;
       }
     }
   }
 
   .realizations {
     margin-top: 50px;
-    .img-container {
+    .imgContainer {
       display: flex;
       align-items: initial;
       justify-content: center;
-      img {
+      .img {
         height: 30vmin;
         margin-bottom: 0px;
         padding-bottom: 0px;
       }
-      .portfolio-img {
+      .portfolioImg {
         padding: 3px;
         object-fit: cover;
       }
     }
+  }
+
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+
+    .panelBar {
+      margin: 0 10%;
+    }
+
+    .content {
+      margin: 20px 11%;
+      text-align: left;
+    }
+
+    .title {
+      font-size: 20px;
+    }
+
+    .info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 10% 50px;
+      font-size: 14px;
+
+    }
+
+    .hastag {
+      margin: 10px 15%;
+      p {
+        font-size: 12px;
+        margin: 10px 10px;
+      }
+    }
+
+    .reference {
+      margin: 50px 0px;
+      padding: 10px 0px;
+      .imgContainer {
+        .clientImg {
+          margin: 10px 3px;     
+        }
+        .img1 {
+          width: 100px;
+          height: 25px;
+        }
+        .img2 {
+          width: 100px;
+          height: 15px;
+        }
+        .img3 {
+          width: 100px;
+          height: 15px;
+        }
+        .img4 {
+          width: 100px;
+          height: 11px;
+        }
+        .img5 {
+          width: 100px;
+          height: 15px;
+        }
+        .img6 {
+          width: 100px;
+          height: 18px;
+        }
+        .img7 {
+          width: 60px;
+          height: 19px;
+        }
+        .img8 {
+          width: 100px;
+          height: 18px;
+        }
+        .img9 {
+          width: 100px;
+          height: 30px;
+        }
+        .img10 {
+          width: 70px;
+          height: 25px;
+        }
+      }
+    }
+
+    .offer {
+      margin-top: 50px;
+    }
+  
+    .about {
+      margin-top: 50px;
+    }
+
   }
 }

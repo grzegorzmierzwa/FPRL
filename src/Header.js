@@ -1,19 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-import './App.scss';
+import styles from'./App.module.scss';
+
 
 function Header() {
   return (
-    <div className='App'>
+    <div className={styles.App}>
       <nav>
-        <Link to='/' className='link-pl'>PL</Link>
+        <Link to='/' className={styles.linkPl}>PL</Link>
         <Link to='/en'>EN</Link>
       </nav>
       <header >
-        <img src='./images/logo.jpg' alt='logo' className='logo' />
-        <h4 className='future'>Future is now...</h4>
-        <div className='hastag'>
+        <img src='./images/logo.jpg' alt='logo' className={styles.logo} />
+        <h4 className={styles.future}>Future is now...</h4>
+        <div className={styles.hastag}>
           <p>#Maintenance Management Systems</p>
           <p>#Lean Manufacturing</p>
           <p>#Total Productive Maintenance</p>

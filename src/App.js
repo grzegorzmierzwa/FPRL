@@ -5,11 +5,11 @@ import HomeEn from './HomeEn';
 import Header from './Header';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import './App.scss';
+import styles from'./App.module.scss';
 
 function App() {
   return (
-    <div className='App'>
+    <div className={styles.App}>
 
 
       <BrowserRouter>

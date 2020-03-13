@@ -1,59 +1,79 @@
 import React from 'react';
 
-import './App.scss';
+import styles from'./App.module.scss';
 
 function Home() {
   return (
-    <div className='App'>
-      <div className='about'>
-          <div className='info'>
+    <div className={styles.App}>
+      <div className={styles.about}>
+          <div className={styles.info}>
             <p>
               <strong>
                 Zmieniamy się dla Was. Ze względu na ekspansję firmy na polski rynek, nasza strona jest tymczasowo przebudowywana. Zapraszamy 1 kwietnia 2020 r.
               </strong>
             </p>
           </div>
-        <div className='panelBar'>
-          <h3 className='title'>O NAS</h3>
+        <div className={styles.panelBar}>
+          <h3 className={styles.title}>O NAS</h3>
         </div>
-        <div className='content'>
+        <div className={styles.content}>
           <p>
             FUTURE WAY PRL LTD jest firmą stworzoną przez profesjonalistów, którzy wykorzystując przez lata gromadzone doświadczenie proponują najbardziej innowacyjne rozwiązania, zawsze dopasowane do indywidualnych potrzeb naszego Klienta.
           </p>
         </div>
       </div>
 
-      <div className='reference'>
-        <div className='panelBar'>
-          <h3 className='title'>WSPÓŁPRACA</h3>
+      <div className={styles.reference}>
+        <div className={styles.panelBar}>
+          <h3 className={styles.title}>WSPÓŁPRACA</h3>
         </div>
-        <div className='content content-img'>
-          <div className='img-container'>
-            <img src='./images/logo-client-1.png' className='client-img img-1' alt='client logo'/>
-            <img src='./images/logo-client-2.png' className='client-img img-2' alt='client logo'/>
-            <img src='./images/logo-client-3.png' className='client-img img-3' alt='client logo'/>
+        <div className={styles.content}>
+          <div className={styles.contentImg}>
+            <div className={styles.imgContainer}>
+              <div className={styles.clientImg}>
+                <img src='./images/logo-client-1.png' className={styles.img1} alt='client logo'/>
+              </div>
+              <div className={styles.clientImg}>
+                <img src='./images/logo-client-2.png' className={styles.img2} alt='client logo'/>
+              </div>
+              <div className={styles.clientImg}>
+                <img src='./images/logo-client-3.png' className={styles.img3} alt='client logo'/>
+              </div>
+            </div>
+            <div className={styles.imgContainer}>
+              <div className={styles.clientImg}>
+                <img src='./images/logo-client-4.jpg' className={styles.img4} alt='client logo'/>
+              </div>
+              <div className={styles.clientImg}>
+                <img src='./images/logo-client-5.svg' className={styles.img5} alt='client logo'/>
+              </div>
+              <div className={styles.clientImg}> 
+                <img src='./images/logo-client-6.png' className={styles.img6} alt='client logo'/>
+              </div>
+            </div> 
+            <div className={styles.imgContainer}>
+              <div className={styles.clientImg}>
+                <img src='./images/logo-client-7.png' className={styles.img7} alt='client logo'/>
+              </div>
+              <div className={styles.clientImg}>
+                <img src='./images/logo-client-8.jpg' className={styles.img8} alt='client logo'/>
+              </div>
+              <div className={styles.clientImg}>
+                <img src='./images/logo-client-9.jpg' className={styles.img9} alt='client logo'/>
+              </div>
+            </div> 
+            <div className={styles.imgContainer}>
+              <img src='./images/logo-client-10.jpg' className={styles.img10} alt='client logo'/>
+            </div> 
           </div>
-          <div className='img-container'>
-            <img src='./images/logo-client-4.jpg' className='client-img img-4' alt='client logo'/>
-            <img src='./images/logo-client-5.svg' className='client-img img-5' alt='client logo'/>
-            <img src='./images/logo-client-6.png' className='client-img img-6' alt='client logo'/>
-          </div> 
-          <div className='img-container'>
-            <img src='./images/logo-client-7.png' className='client-img img-7' alt='client logo'/>
-            <img src='./images/logo-client-8.jpg' className='client-img img-8' alt='client logo'/>
-            <img src='./images/logo-client-9.jpg' className='client-img img-9' alt='client logo'/>
-          </div> 
-          <div className='img-container'>
-            <img src='./images/logo-client-10.jpg' className='client-img img-10' alt='client logo'/>
-          </div> 
         </div>
       </div>
 
-      <div className='offer'>
-        <div className='panelBar'>
-          <h3 className='title'>OFERTA</h3>
+      <div className={styles.offer}>
+        <div className={styles.panelBar}>
+          <h3 className={styles.title}>OFERTA</h3>
         </div>
-        <div className='content'>
+        <div className={styles.content}>
           <p>
             Nasza firma oferuje pełny zakres skutecznych i sprawdzonych rozwiązań serwisowych 
             które gwarantują wzrost konkurencyjności 
@@ -75,30 +95,43 @@ function Home() {
         </div>
       </div>
 
-      <div className='realizations'>
-        <div className='panelBar'>
-          <h3 className='title'>REALIZACJE</h3>
+      <div className={styles.realizations}>
+        <div className={styles.panelBar}>
+          <h3 className={styles.title}>REALIZACJE</h3>
         </div>
-        <div className='content content-img'>
-          <div className='img-container'>
-            <img src='./images/portfolio-1.jpeg' className='portfolio-img img-1' alt='foto'/>
-            <img src='./images/portfolio-2.jpeg' className='portfolio-img img-2' alt='foto'/>
-            <img src='./images/portfolio-3.jpeg' className='portfolio-img img-3' alt='foto'/>
+        <div className={styles.content}>
+          <div className={styles.contentImg}>
+            <div className={styles.imgContainer}>
+              <div  className={styles.portfolioImg}>
+                <img src='./images/portfolio-1.jpeg' className={styles.img} alt='foto'/>
+              </div>
+              <div  className={styles.portfolioImg}>
+                <img src='./images/portfolio-2.jpeg' className={styles.img} alt='foto'/>
+              </div>
+              <div  className={styles.portfolioImg}>
+                <img src='./images/portfolio-3.jpeg' className={styles.img} alt='foto'/>
+              </div>
+            </div>
+            <div className={styles.imgContainer}>
+              <div  className={styles.portfolioImg}>
+                <img src='./images/portfolio-4.jpeg' className={styles.img} alt='foto'/>
+              </div>
+              <div  className={styles.portfolioImg}>
+                <img src='./images/portfolio-5.jpeg' className={styles.img} alt='foto'/>
+              </div>
+              <div  className={styles.portfolioImg}>
+                <img src='./images/portfolio-6.jpeg' className={styles.img} alt='foto'/>
+              </div>
+            </div>
           </div>
-          <div className='img-container'>
-            <img src='./images/portfolio-4.jpeg' className='portfolio-img img-4' alt='foto'/>
-            <img src='./images/portfolio-5.jpeg' className='portfolio-img img-5' alt='foto'/>
-            <img src='./images/portfolio-6.jpeg' className='portfolio-img img-6' alt='foto'/>
-          </div>
-
         </div>
       </div>
 
-      <div className='contact'>
-        <div className='panelBar-contact'>
-          <h3 className='title-contact'>KONTAKT</h3>
+      <div className={styles.contact}>
+        <div className={styles.panelBarContact}>
+          <h3 className={styles.titleContact}>KONTAKT</h3>
         </div>
-        <div className='content'>
+        <div className={styles.content}>
           <p>
             Numer telefonu: +48 727 999 990
           </p>
